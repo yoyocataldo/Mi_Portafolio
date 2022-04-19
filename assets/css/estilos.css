@@ -1,0 +1,133 @@
+
+
+html{
+    scroll-behavior: auto !important;
+
+}
+
+
+body {
+    font-family: "Helvetica";
+
+}
+
+
+/* nav bar */
+.navbar{
+    background-color: #1B2631;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+
+}
+
+.navbar-brand {
+    font-family: "Oswald";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/*sECCION HERO-SECTION*/
+
+#Hero-Section {
+    background-image: url("../img/Yoyo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+
+}
+
+#Hero-Section div {
+    position: absolute;
+    bottom: 130px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.Hero-line{
+    width: 345px;
+}
+
+#Hero-Section h1{
+    font-family: "Oswald";
+    font-size: 72px;
+}
+
+#Hero-Section :first-child{
+    font-weight: 200;
+}
+
+#Hero-Section :last-child{
+    font-weight: 900;
+}
+
+/* Sobre mi*/
+
+#Sobre-Mi{
+color: #373A3C;
+font-family: "Opens Sans";
+line-height: 2;
+
+}
+
+/*Mi experiencia*/
+
+#Experiencia div h1{
+
+font-family: "Oswald";
+font-size: 52;
+}
+
+#Experiencia i{
+    color: #1B2631;
+}
+
+#Experiencia div:last-child article h4:first-child{
+font-family: "Oswald";
+}
+
+#Experiencia div:last-child article h4:first-child{
+    font-family: "Open Sans";
+    font-weight: 300;
+    }
+
+    /*Mis ultimos trabajos*/
+
+    #Trabajos {
+        background-color: #1B2631;
+        font-family: "Oswald";
+    }
+
+    #Trabajos h1 {
+        font-size: 52px;
+        
+
+    }
+    /*contacto*/
+    #Contacto h1{
+        font-family: "Oswald";
+        font-size: 52px;
+    }
+
+    /*footer*/
+
+    #Footer {
+        background-color: #1B2631;
+
+    }
+
+    #Footer h1 {
+        font-family: "Oswald";
+
+    }
+
+    #Footer a{
+        color: white;
+        text-decoration: none;
+
+
+
+    }
